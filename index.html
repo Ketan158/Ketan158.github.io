@@ -1,40 +1,15 @@
 <html>
-	<title> web page </title>
-  <head>
-     <style>
-           th.a {
-	     background-color:rgb(211,211,211);
-		}
-	   tr.b {
-	     background-color:rgb(255,2,1);
-	        } 
-     </style> 
+     <body>
+	  <h1> hello world!! </h1>
+	  <button onclick = "ChangeThisPageFunc();"> click here </button>
+	  <script type = "text/javascript">
+             changeThisPageFunc = function() {
+		document.body.style.backgroundColor = "#FFFF00";
+		document.body.innerHTML = "<h1> hello RGIPT! </h1>";
+		      }
+	  </script>
 
- </head>
-       <body>
-	      <table width = "75%" border = 0px cellspacing = 0>
-		      <th><td> Country </td>
-		      <td> City </td>
-		      <td> Language </td>
-		      </th>
-		      <tr>
-			      <td> albania </td>
-			      <td> tirana </td>
-			      <td> albanian </td>
-		      </tr>
-			      <td> Papua New Guinea </td>
-			      <td> Port Moresby </td>
-			      <td> English </td>
-		      </tr>
-		      <tr>    <td> Latvia </td>
-			      <td> Riga </td>
-			      <td> Latvian </td>
-	              </tr>
-		      <tr>    <td> France </td>
-			      <td> Paris </td>
-			      <td> French </td>
-		      </tr>
-	       </table>
-	             
      </body>
-<html>
+</html>
+
+
